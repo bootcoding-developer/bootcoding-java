@@ -5,6 +5,9 @@ public class EvenArrayExample {
     public static void main(String[] args) {
 
         int[] nums = {11, 26, 39, 40, 54};
+
+
+
         // traverse array
         // find even number
         // print only even number
@@ -15,6 +18,7 @@ public class EvenArrayExample {
             }
         }
 
+        System.out.println("*******************");
         for(int i = 0; i < nums.length; i++){
             if(i % 2 == 0){
                 System.out.println(nums[i]);
