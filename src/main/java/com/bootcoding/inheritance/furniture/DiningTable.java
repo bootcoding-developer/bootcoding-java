@@ -1,5 +1,7 @@
 package com.bootcoding.inheritance.furniture;
 
-public class DiningTable extends Table{
+import com.bootcoding.inheritance.furniture.test.Table;
+
+public class DiningTable extends Table {
 
 }
