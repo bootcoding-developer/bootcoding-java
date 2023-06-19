@@ -5,8 +5,6 @@ public class Book {
     private Author[] authors;
     private Publication publisher;
 
-
-
     public String getTitle() {
         return title;
     }

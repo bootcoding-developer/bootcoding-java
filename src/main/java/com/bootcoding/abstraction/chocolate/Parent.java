@@ -10,3 +10,11 @@ public abstract class Parent {
 
     }
 }
+
+
+//1. Demonstrate Abstraction on Book as parent with TextBook, AudioBook and EBook as childs
+//2. Demonstrate Abstraction on Loan as parent with HomeLoan, CarLoan, EducationLoan
+
+
+//1. Using Interface on Book as parent with TextBook, AudioBook and EBook as childs
+//2. Using Interface on Loan as parent with HomeLoan, CarLoan, EducationLoan

@@ -1,4 +1,8 @@
-package com.bootcoding.composition.book;
+package com.bootcoding.array;
+
+import com.bootcoding.composition.book.Author;
+import com.bootcoding.composition.book.Book;
+import com.bootcoding.composition.book.Publication;
 
 public class BookApp {
     public static void main(String[] args) {
