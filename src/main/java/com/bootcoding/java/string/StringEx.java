@@ -106,6 +106,11 @@ public class StringEx {
 
         //WAP to add a space after every characters of a given string while printing
         String input = "Java"; // J a v a
+
+        for(int i=0 ; i < input.length(); i++){
+            System.out.print(input.charAt(i) + " ");
+        }
+        System.out.println();
         char[] chars2 = input.toCharArray();
         for(int i = 0; i < chars2.length; i++){
             System.out.print((chars2[i] + "").toUpperCase() + " ");
