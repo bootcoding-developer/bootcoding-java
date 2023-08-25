@@ -11,6 +11,7 @@ public class ForEx {
             int num = new Random().nextInt();
             if(num % 2 == 0){
                 System.out.println(num + " is EVEN!");
+                break;
             }else{
                 System.out.println(num + " is ODD!");
             }
@@ -19,6 +20,9 @@ public class ForEx {
         // Multiplication Table example
         int x = 15;
         for(int i = 1; i <= 10; i++){
+            if(i <= 5){
+                continue; // skip
+            }
             System.out.println(x + " * " + i + " = " + x * i);
         }
     }
