@@ -1,5 +1,7 @@
 package com.bootcoding.java.dsa.array;
 
+import com.bootcoding.java.oops.Day1.Calculator;
+
 public class ArrayEx1 {
     public static void main(String[] args) {
         int[] arr = {10, 20, 7, 19, 31};
@@ -12,5 +14,7 @@ public class ArrayEx1 {
             }
             System.out.print(arr[i] + " ");
         }
+
     }
+
 }

@@ -2,6 +2,7 @@ package com.bootcoding.java.switchcase;
 
 public class SwitchCaseEx1 {
     public static void main(String[] args) {
+
         String month = "JAN";
 
         switch (month){
