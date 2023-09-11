@@ -5,12 +5,51 @@ public class PostPreIncrement {
         int x = 10;
         int y = 5;
 
-        int z = x++ + ++y; // L:8, z = 16, x = 10, y = 6
-        // z = 16
-        System.out.println(z); // L:10, z = 16, x = 11, y = 6
-        int w = x + ++y;
-        // w = 17
-        System.out.println(w);
+//        // ++ Increment Operator
+//        x++; // Post Increment Operator
+//        ++x; // Pre Increment Operator
+//
+        // PreIncrement Example
+        // y = ++x;
+        // 1. Incrementing value of x
+        // 2. Assigning value of x to y. = 11
+
+        // PostIncrement Example
+        //y = x++;
+        // 1. Assigning value of x to y. = 10
+        // 2. Incrementing value of x
+
+        y = ++x + x++;
+        // 1. ++x -> x = 11
+        // 2. Addition of 11 + 11 = 22
+        // 2. Assigning value of x to y. = 22
+        // 3. x++ -> x = 12
+
+        System.out.println(y);
+        System.out.println(x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 // Post and Pre Operator
