@@ -1,7 +1,5 @@
 package com.bootcoding.java.inheritance.furniture;
 
-import com.bootcoding.java.inheritance.furniture.test.Table;
-
 public class ComputerTable extends Table {
 
    private String dimensions;

@@ -21,3 +21,7 @@ public class PalindromNumber {
 
     }
 }
+
+
+// git config --global user.name "bootcoding-developer"
+// git config --global user.email bootcoding@gmail.com

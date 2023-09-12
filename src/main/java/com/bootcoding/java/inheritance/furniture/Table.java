@@ -1,4 +1,4 @@
-package com.bootcoding.java.inheritance.furniture.test;
+package com.bootcoding.java.inheritance.furniture;
 
 public class Table {
     private String color;
