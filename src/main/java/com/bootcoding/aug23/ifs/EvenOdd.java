@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class EvenOdd {
     public static void main(String[] args) {
-
+        evenOdd(); // method calling
+    }
+    // Method Definition
+    public static void evenOdd(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter any number!");
         int n = scanner.nextInt();
