@@ -27,6 +27,3 @@ public class ArrayEx4 {
         System.out.println("Sum of all elements : "+ sum);
     }
 }
-
-// Print maximum number of given array
-// print cube of each element of an array
