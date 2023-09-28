@@ -15,8 +15,13 @@ public class ArrayEx6 {
         for(int k = size/2; k < size ;  k++){
             System.out.println(a[k]);
         }
+        int i = size/2;
+        while(i < size){
+            System.out.println(a[i]);
+            i++;
+        }
         // Print alternate element of an array
-        for(int j = 0; j < size; j = j + 2){
+        for(int j = 0; j < size; j += 2){
             System.out.println(a[j]);
         }
         int p = 0;
