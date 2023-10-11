@@ -1,8 +1,8 @@
 package com.bootcoding.java.array;
 
-import com.bootcoding.java.book.Author;
-import com.bootcoding.java.book.Book;
-import com.bootcoding.java.book.Publication;
+import com.bootcoding.java.composition.book.Author;
+import com.bootcoding.java.composition.book.Book;
+import com.bootcoding.java.composition.book.Publication;
 
 public class BookApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.bootcoding.java.book;
+package com.bootcoding.java.composition.book;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.bootcoding.java.book;
+package com.bootcoding.java.composition.book;
 
 public class Author {
     private int age;
