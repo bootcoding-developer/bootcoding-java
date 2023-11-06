@@ -15,6 +15,12 @@ public class Car {
     }
 
     public static void main(String[] args) {
+        Car mercedes = new Car();
+        mercedes.color = "Black";
+        mercedes.isAutomatic = true;
+        mercedes.companyName = "Mercedes";
+        Car bmw = new Car();
+        Car car2 = new Car();
         Car car1 = new Car();
         car1.start();
         car1.stop();
@@ -26,6 +32,11 @@ public class Car {
         System.out.println("CompanyName : " + car1.companyName);
         System.out.println("isAutomatic : " + car1.isAutomatic);
         System.out.println("Wheels : " + car1.wheels);
+
+        System.out.println(" ====== My Mercedes Car === Kal hi kharidi ==== ");
+        System.out.println("Color :" + mercedes.color);
+        System.out.println("CompanyName : " + mercedes.companyName);
+        System.out.println("isAutomatic : " + mercedes.isAutomatic);
 
     }
 }
