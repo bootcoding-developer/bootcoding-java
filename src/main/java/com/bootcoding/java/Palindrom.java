@@ -20,18 +20,4 @@ public class Palindrom {
             System.out.println(temp + " is not palindrom number");
         }
     }
-
-    // Methods
-    // Array
-    // String
-    // OOPs
-    // Class and Object
-    // Inheritance
-    // Encapsulation
-    // Polymorphism
-    // Abstraction
-    // OMP - Object message passing
-    // Java Memory Model
-    // A mini Project using Java OOPs
-    // JUnit
 }
