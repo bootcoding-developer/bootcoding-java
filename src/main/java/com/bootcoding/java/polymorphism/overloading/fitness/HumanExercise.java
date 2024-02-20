@@ -11,8 +11,13 @@ public class HumanExercise {
         date = new Date();
         time = 15;
     }
-    public void run(int time){
+    public void run(int x, double y){
         date = new Date();
+        this.time = time;
+    }
+
+    public void run(double y, int x){
+        this.date = date;
         this.time = time;
     }
 

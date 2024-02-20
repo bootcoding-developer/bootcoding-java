@@ -1,18 +1,26 @@
 package com.bootcoding.java;
-import java.util.Scanner;
-public class EvenOddProgram {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number:");
-        int n = sc.nextInt(); // 10
-        int a = 10;
-        n = a + 2 + ++a; // 23
-//        n = a + 2 + a++; // 22
 
-        if(n % 2 == 0){
-            System.out.println(n + " is Even number");
-        }else{
-            System.out.println(n + " is Odd number");
+public class EvenOddProgram extends Object{
+    int age;
+    public static void main(String[] args) {
+        int a = 10; // start
+        int n = 10;
+        System.out.println(n);
+        // block
+        {
+            int quantity = 10; // start life
+            System.out.println(quantity);
+            {
+
+                double score = 1.0 + 2.0 * 3.0;
+
+                String name = "\nRamesh";
+                System.out.println(name);
+                String nam2e = "\tRamesh";
+                System.out.println(nam2e);
+            }
         }
-    }
+        // scope - life
+    } // end life
 }
+

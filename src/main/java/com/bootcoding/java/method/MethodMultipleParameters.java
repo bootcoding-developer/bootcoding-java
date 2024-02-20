@@ -17,6 +17,10 @@ public class MethodMultipleParameters {
          findPalindrome(n);
          findPalindrome(m);
          findPalindrome(o);
+
+         for(int i = 7; i <= 9; i++){
+             findPalindrome(i);
+        }
     }
 
     public static void findPalindrome(int x){
@@ -31,6 +35,7 @@ public class MethodMultipleParameters {
         }else{
             System.out.println(org + " is not a palindrome!");
         }
+        findPalindrome(x); // recursion
 
     }
 }

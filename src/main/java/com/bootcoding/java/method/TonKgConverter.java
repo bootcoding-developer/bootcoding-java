@@ -30,4 +30,7 @@ public class TonKgConverter {
     private static double convertToTon(int kg) {
         return kg / 1000.00;
     }
+
+
+
 }

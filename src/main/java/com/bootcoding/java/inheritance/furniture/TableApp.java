@@ -5,6 +5,7 @@ public class TableApp {
 
         DiningTable dt = new DiningTable();
         ComputerTable ct = new ComputerTable();
+
         ct.setDimensions("3 by 3");
         System.out.println(ct.getDimensions());
         ct.print();

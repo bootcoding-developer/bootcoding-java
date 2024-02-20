@@ -1,9 +1,11 @@
 package com.bootcoding.java.composition.book;
 
+import java.security.PrivateKey;
 import java.util.List;
 
 public class Book {
     private String title;
+    private String category;
     private List<Author> authors;
     private Publication publisher;
 

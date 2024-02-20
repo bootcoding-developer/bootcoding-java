@@ -1,5 +1,7 @@
 package com.bootcoding.java.oops;
 
+import java.util.Scanner;
+
 public class Car {
     int wheels;
     String color;
@@ -24,7 +26,27 @@ public class Car {
         Car car1 = new Car();
         car1.start();
         car1.stop();
-        car1.color = "red";
+        String color = "Red";
+
+
+        // 1. Bike
+        // 2. Building
+
+        // 1. Tell the Definition of Real World Object to Computer
+        // Class - Blueprint of Object
+        // Class - is way to define real world object properties/attributes and behaviour
+        // CLass is consists of Data Members and Member Methods
+
+        // Object is an instance of a Class
+        // Object is a runtime entity of a Class
+
+        // CLass doesn't get any memory - can't initialize data members
+        // Object get memory - it initialize data members
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Car Color:");
+        String carColor = sc.next();
+        car1.color = carColor;
         car1.isAutomatic = true;
         car1.companyName = "Mercedes";
         car1.wheels = 4;

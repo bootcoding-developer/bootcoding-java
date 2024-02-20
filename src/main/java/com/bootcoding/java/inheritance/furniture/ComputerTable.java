@@ -13,6 +13,9 @@ public class ComputerTable extends Table {
        this.dimensions = dimensions;
    }
 
+    public static void main(String[] args) {
+        ComputerTable ct = new ComputerTable();
+    }
 
     public void print(){
         legs = 4;

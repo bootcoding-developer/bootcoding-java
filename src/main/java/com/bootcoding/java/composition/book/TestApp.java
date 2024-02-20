@@ -1,6 +1,7 @@
 package com.bootcoding.java.composition.book;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class TestApp {
@@ -21,5 +22,7 @@ public class TestApp {
         p.setCompany("xyz");
         book.setPublisher(p);
 
+
+        HashMap<String, List<String>> data;
     }
 }

@@ -10,7 +10,7 @@ public class ExerciseApp {
         he.print();
 
 
-        he.run(30);
+//        he.run(30);
         he.print();
 
         Calendar c = Calendar.getInstance(); // starts with today's date and time
