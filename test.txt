@@ -1,0 +1,53 @@
+ <ul className="gap-y-16 px-[5rem] min-[966px]:px-0 grid grid-cols-1 min-[966px]:grid-cols-2 min-[1300px]:grid-cols-3 ">
+                {arr.courses.map((item, index) => {
+                    return (
+                        <li
+                            key={index}
+                            className="flex flex-col rounded-lg h-[48vh] border hover:transform hover:scale-105 hover:border-blue-600 w-80"
+                        >
+                            <div className="relative h-[53%]">
+                                <img
+                                    src={webdev}
+                                    className="h-full w-full object-cover rounded-t-2xl"
+                                />
+                                <div className="absolute top-2 right-2 bg-gray-800 inline-flex items-center h-min rounded-2xl px-3">
+                                    <FaStar className="text-yellow-400 text-xs " />
+                                    <p className="text-white text-sm ml-1">5</p>
+                                </div>
+                            </div>
+
+                            <div className=" w-full h-[50%] bg-white rounded-b-3xl flex flex-col">
+                                <p className="font-medium text-lg min-h-14 px-3 pt-2 leading-6">
+                                    {item.course_name}
+                                </p>
+                                <div className="text-sm px-3 pt-4 pb-2 flex items-center">
+                                    <div className="rounded-full bg-gray-200 p-px">
+                                        <TbAntennaBars5 />
+                                    </div>
+                                    <p className="ml-2 text-gray-500">
+                                        {arr.courses[index].course_level}
+                                    </p>
+                                </div>
+                                <div className="px-3 h-14 gap-10 flex py-3 rounded-b-3xl">
+                                    <div className="flex items-center p-0">
+                                        <IoIosTrendingUp className="text-blue-800 text-[14px]" />
+                                        <p className="ml-1 text-gray-500 text-[11px]">
+                                            +
+                                            {
+                                                arr.courses[index]
+                                                    .enrolled_students
+                                            }{" "}
+                                            enrolled students
+                                        </p>
+                                    </div>
+                                    <Link
+                                        to="/courses/detail"
+                                        className="text-sm rounded px-3 py-2 font-medium text-blue-500 hover:text-white hover:bg-blue-500"
+                                    >
+                                        Explore now
+                                    </Link>
+                                </div>
+                            </div>
+                        </li>
+                    );
+                })}
