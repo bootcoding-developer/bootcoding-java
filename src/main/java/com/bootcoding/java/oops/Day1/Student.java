@@ -1,7 +1,7 @@
 package com.bootcoding.java.oops.Day1;
 
 public class Student {
-    // Instance Variable
+    // Properties
     int rollNo;
     String name;
     String emailId;

@@ -17,14 +17,17 @@ public class NumberFormatEx {
             System.out.println("Name = " + name);
             System.out.println("Roll Number = " + rollNumber);
             int d = 100/rollNumber;
-        } catch (ArithmeticException ex){
-            System.err.println("Rollnumbers can not be 0!!!");
-            System.out.println("I am in catch 1()");
         } catch (NumberFormatException ex){
-            System.err.println("Invalid roll number! Only numbers are allowed!!!");
-            System.out.println("I am in catch2()");
+            System.err.println("Exception occurs! Something is wrong!");
+        } catch (RuntimeException npe){
+            System.err.println("Exception occurs! Something is wrong!");
+        } catch (Exception ex){
+            ex.printStackTrace();
+            System.err.println("Exception occurs! Something is wrong!");
         } finally {
             System.out.println("I am in finally block!!!");
         }
+        // // when to use generic and when to use specific
     }
 }
+
